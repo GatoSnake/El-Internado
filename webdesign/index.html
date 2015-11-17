@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>El Internado</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoXw_9VLK0eTv_lGH8WeYRHI2SWetnYEc&callback=initMap" async defer></script>
+
+    <!-- Imgs tiles -->
+    <!-- Include Unite Gallery core files -->
+	<script src='unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
+	<link  href='unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
+	<!-- include Unite Gallery Theme Files -->
+	<script src='unitegallery/themes/tiles/ug-theme-tiles.js' type='text/javascript'></script>
+
+  </head>
+  <body>
+
+  	<nav class="navbar navbar-default navbar-fixed-top nav-custom">
+  		<div class="container" style="padding-bottom: 10px;">
+  			<div class="col-xs-12">
+  				<p class="text-right"><!--radio--></p>
+  			</div>
+  		</div>
+  		<div class="container-custom">
+			<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header navbar-header-custom">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img alt="Brand" class="logo-navbar" src="imgs/logo.png">
+					</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-collapse-custom" id="bs-navbar-collapse-1">
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 01-.</span> El Lugar</a></li>
+						<li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 02-.</span> Cocina</a></li>
+						<li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 03-.</span> Blog</a></li>
+						<li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 04-.</span> Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+  		</div>
+	</nav>
+
+	<!--<header id="carousel-generic" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-generic" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="fill" style="background-image:url('imgs/header.jpg');"></div>
+				<div class="carousel-caption">
+					El Internado
+				</div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-image:url('imgs/header.jpg');"></div>
+				<div class="carousel-caption">
+					El Internado
+				</div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-image:url('imgs/header.jpg');"></div>
+				<div class="carousel-caption">
+					El Internado
+				</div>
+			</div>
+		</div>
+
+		<a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</header>-->
+	<header>
+		<div class="fill" style="background-image:url('imgs/header.jpg');"></div>
+	</header>
+	
+
+	<div class="content">
+
+		<div class="container section-space f-atw-style">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="text-center f-swk">LA HISTORIA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="text-center  class="f-atw"">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section-space section-border-header">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center f-clw section-header">EL LUGAR</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container section-space">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="gallery" style="display:none;">
+
+						<img alt="Image 1 Title" src="imgs/ellugar_1.jpg"
+							data-image="imgs/ellugar_1.jpg"
+							data-description="Image 1 Description">						
+						<img alt="Image 1 Title" src="imgs/ellugar_2.jpg"
+							data-image="imgs/ellugar_2.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_3.jpg"
+							data-image="imgs/ellugar_3.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_4.jpg"
+							data-image="imgs/ellugar_4.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_5.jpg"
+							data-image="imgs/ellugar_5.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_6.jpg"
+							data-image="imgs/ellugar_6.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_7.jpg"
+							data-image="imgs/ellugar_7.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_8.jpg"
+							data-image="imgs/ellugar_8.jpg"
+							data-description="Image 1 Description">
+						<img alt="Image 1 Title" src="imgs/ellugar_9.jpg"
+							data-image="imgs/ellugar_9.jpg"
+							data-description="Image 1 Description">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container section-space f-atw-style">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="square" style="background-image:url('imgs/header.jpg');"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section-space section-border-header">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center f-clw section-header">COCINA</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container section-space f-atw-style">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="text-center f-swk">LA HISTORIA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="text-center f-atw">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section-space section-border-header">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center f-clw section-header">BLOG</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container section-space f-atw-style">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="text-center f-swk">LA HISTORIA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="text-center f-atw">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section-space section-border-header">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center f-clw section-header">CONTACTO</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container section-space">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="text-center f-clw">DIMALOW 167 C° ALEGRE<br/>VALPARAÍSO * CHILE</h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact-map" style="height:400px;"></div>
+
+		<div class="container section-space">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<h2 class="text-center f-clw contact-header">HORARIOS</h2>
+					<p class="text-center f-swk f-atw-style">LUNES A JUEVES DE 12:00 PM. A 02:00 AM.<br/>
+						VIERNES A SABADO DE 12:00 PM. A 04:00 AM.<br/>
+						DOMINGOS DE 12:00 PM. A 20:00 HRS.
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<h2 class="text-center f-clw contact-header">RESERVACIONES</h2>
+					<h3 class="text-center f-clw contact-header"><span>RESERVA AQUÍ</span></h3>
+					<p class="text-center f-swk f-atw-style">O LLAMA AL 032 445 67 98</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<h2 class="text-center f-clw contact-header">CONTACTO</h2>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">Place sticky footer content here.</p>
+		</div>
+    </footer>
+
+    <script type="text/javascript">
+    	function initMap() {
+			// Create a map object and specify the DOM element for display.
+			var stylesArray = [{"stylers": [{ "saturation": -100 }]}];
+			var myLatLng = {lat: -33.04317, lng: -71.62779};
+			var map = new google.maps.Map(document.getElementById('contact-map'), {
+				center: myLatLng,
+				scrollwheel: false,
+				zoom: 16
+			});
+			map.setOptions({styles: stylesArray});
+
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				title: 'Hello World!'
+			})
+
+		}
+
+		jQuery(document).ready(function(){	
+			jQuery("#gallery").unitegallery({
+				theme_enable_preloader: true,		//enable preloader circle
+					theme_preloading_height: 200,		//the height of the preloading div, it show before the gallery
+					theme_preloader_vertpos: 200,		//the vertical position of the preloader
+					theme_gallery_padding: 0,			//the horizontal padding of the gallery from the sides
+					theme_auto_open:null,				//auto open lightbox at start - if some number gived, like 0
+					
+					//gallery options:
+					
+					gallery_theme: "tiles",				//choose gallery theme (if more then one themes includes)
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 00,				//gallery minimal width when resizing
+					gallery_background_color: "",
+					tiles_nested_optimal_tile_width:200		//set custom background color. If not set it will be taken from css.	
+			});
+		});
+    </script>
+  </body>
+</html>
