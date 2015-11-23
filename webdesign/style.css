@@ -1,0 +1,17 @@
+/*
+Theme Name: El Internado
+Theme URI: http://elinternado.cl
+Description: Theme for El Internado
+Author: Rodrigo Zenteno, Cristhian Won
+Author URI: http://elinternado.cl
+Version: 1.1
+Tags: responsive, bootstrap
+
+License: Copyright ZW (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+@import url('css/bootstrap.min.css'); 
+@import url('css/style.css'); 
+@import url('unitegallery/css/unite-gallery.css'); 
