@@ -212,3 +212,10 @@ body > header {
 }
 
 
+.section-platos img {
+  height: 240px;
+  width: 165px;
+}
+.lighter-font {
+  font-weight: lighter !important;
+}
