@@ -1,4 +1,4 @@
-		<div class="container-fluid section-space section-border-header">
+		<div id="contacto" class="container-fluid section-space section-border-header">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center f-clw section-header">CONTACTO</h1>
@@ -9,7 +9,7 @@
 		<div class="container section-space">
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center f-clw">DIMALOW 167 C° ALEGRE<br/>VALPARAÍSO * CHILE</h3>
+					<h3 class="text-center f-clw contact-direction">DIMALOW 167 C° ALEGRE<br/>VALPARAÍSO * CHILE</h3>
 				</div>
 			</div>
 		</div>
@@ -27,11 +27,17 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4">
 					<h2 class="text-center f-clw contact-header">RESERVACIONES</h2>
-					<h3 class="text-center f-clw contact-header"><span>RESERVA AQUÍ</span></h3>
-					<p class="text-center f-swk f-atw-style">O LLAMA AL 032 445 67 98</p>
+					<h3 class="text-center f-clw contact-header"><span><a href="mailto:contacto@elinternado.cl">RESERVA AQUÍ</a></span></h3>
+					<p class="text-center f-swk f-atw-style">O LLAMA AL <a href="tel:+032 445 67 98">032 445 67 98</a></p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4">
 					<h2 class="text-center f-clw contact-header">CONTACTO</h2>
+					<div class="col-xs-12 text-center">
+						<a href=""><i class="fa fa-facebook icon-social"></i></a>
+						<a href=""><i class="fa fa-twitter icon-social"></i></a>
+						<a href=""><i class="fa fa-tumblr icon-social"></i></a>
+					</div>
+					<h2 class="text-center"><a href="mailto:contacto@elinternado.cl" class="f-cj"><ins>contacto@elinternado.cl</ins></a></h2>
 				</div>
 			</div>
 		</div>

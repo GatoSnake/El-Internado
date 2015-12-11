@@ -42,10 +42,10 @@
                 <div class="collapse navbar-collapse navbar-collapse-custom" id="bs-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 01-.</span> El Lugar</a></li>
-                        <li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 02-.</span> Cocina</a></li>
-                        <li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 03-.</span> Blog</a></li>
-                        <li><a href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 04-.</span> Contacto</a></li>
+                        <li><a id="menu-lugar" href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 01-.</span> El Lugar</a></li>
+                        <li><a id="menu-cocina" href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 02-.</span> Cocina</a></li>
+                        <li><a id="menu-blog" href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 03-.</span> Blog</a></li>
+                        <li><a id="menu-contacto" href="#" class="f-cj text-menu-link"><span class="f-atw text-menu-number">N 04-.</span> Contacto</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="content">
 
-		<div class="container section-space f-atw-style">
+		<div id="historia" class="container section-space f-atw-style">
 			<div class="row">
 				<div class="col-xs-12">
 					<h3 class="text-center f-swk">LA HISTORIA</h3>
@@ -23,7 +23,7 @@
 	$query = new WP_Query( array( 'category_name' => 'lugar' , 'posts_per_page' => 10) );
 	if ($query->have_posts()) : 
 ?>
-		<div class="container-fluid section-space section-border-header">
+		<div id="lugar" class="container-fluid section-space section-border-header">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center f-clw section-header">EL LUGAR</h1>
@@ -70,7 +70,7 @@
 	$querys = new WP_Query( array( 'category_name' => 'sandwich' , 'posts_per_page' => 10) );
 	if ($queryp->have_posts() || $querys->have_posts()) : 
 ?>
-		<div class="container-fluid section-space section-border-header">
+		<div id="cocina" class="container-fluid section-space section-border-header">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center f-clw section-header">COCINA</h1>
@@ -202,7 +202,7 @@
 	$query = new WP_Query( array( 'category_name' => 'blog' , 'posts_per_page' => 15) );
 	if ($query->have_posts()) : 
 ?>
-		<div class="container-fluid section-space section-border-header">
+		<div id="blog" class="container-fluid section-space section-border-header">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center f-clw section-header">BLOG</h1>
