@@ -17,8 +17,8 @@ function initMap() {
 
 };
 
-jQuery(document).ready(function(){	
-	jQuery("#gallery").unitegallery({
+$(document).ready(function(){	
+	$("#gallery").unitegallery({
 		theme_enable_preloader: true,		//enable preloader circle
 			theme_preloading_height: 200,		//the height of the preloading div, it show before the gallery
 			theme_preloader_vertpos: 200,		//the vertical position of the preloader
@@ -33,10 +33,8 @@ jQuery(document).ready(function(){
 			gallery_background_color: "",
 			tiles_nested_optimal_tile_width:200		//set custom background color. If not set it will be taken from css.	
 	});
-});
 
-jQuery(document).ready(function(){	
-	jQuery("#gallery2").unitegallery({
+	$("#gallery2").unitegallery({
 		theme_enable_preloader: true,		//enable preloader circle
 			theme_preloading_height: 200,		//the height of the preloading div, it show before the gallery
 			theme_preloader_vertpos: 200,		//the vertical position of the preloader
@@ -50,5 +48,26 @@ jQuery(document).ready(function(){
 			gallery_min_width: 00,				//gallery minimal width when resizing
 			gallery_background_color: "",
 			tiles_nested_optimal_tile_width:200		//set custom background color. If not set it will be taken from css.	
+	});
+
+	$("#menu-lugar").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#lugar").offset().top-125
+	    }, 500);
+	});
+	$("#menu-cocina").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#cocina").offset().top-125
+	    }, 500);
+	});
+	$("#menu-blog").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#blog").offset().top-125
+	    }, 500);
+	});
+	$("#menu-contacto").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#contacto").offset().top-125
+	    }, 500);
 	});
 });

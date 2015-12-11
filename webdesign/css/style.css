@@ -21,6 +21,7 @@
 .f-atw-style {
   font-weight: bold;
   letter-spacing: 3px;
+  line-height: 22px;
 }
 .f-swk {
   font-family: stampWriterKit;
@@ -207,10 +208,39 @@ body > header {
 }
 .contact-header>span {
   background-color: black;
-  color: white;
   padding: 0px 15px;
 }
+.contact-header>span>a {
+  color: white;
+}
+.contact-direction {
+  font-size: 30px;
+  color: black;
+  letter-spacing: 5.3px;
+  line-height: 40px;
+}
 
+.title-plato {
+  color: #004F82 !important;
+  font-size: 30px;
+}
+.precio-plato {
+  color: #004F82 !important;
+  font-size: 30px;
+}
+
+.pages-buttons span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button-page {
+  color: #004F82 !important;
+  font-size: 30px;
+}
+.no-button-page {
+  font-size: 16px;
+}
 
 .section-platos img {
   height: 240px;
@@ -218,4 +248,10 @@ body > header {
 }
 .lighter-font {
   font-weight: lighter !important;
+}
+.icon-social {
+  font-size: 34px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
 }
