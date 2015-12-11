@@ -5,6 +5,17 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="container section-space">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="text-center f-clw">DIMALOW 167 C° ALEGRE<br/>VALPARAÍSO * CHILE</h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact-map" style="height:400px;"></div>
+
 		<div class="container section-space">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4">
@@ -24,6 +35,7 @@
 				</div>
 			</div>
 		</div>
+
 
 	</div>
 
